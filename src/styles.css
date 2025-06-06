@@ -10,7 +10,7 @@
 
 .menuNavegacion{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     width: 100%;
@@ -29,4 +29,9 @@
     height: 90px;
     width: 100px;
     border-radius:60% ;
+}
+
+.listas__link{
+    text-decoration: none;
+    color: white;
 }
