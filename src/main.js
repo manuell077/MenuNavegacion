@@ -1,7 +1,8 @@
 import "./styles.css"
 
 import * as ControladorCategories from "./Views/Categories/ControladorCategories.js"
-import * as ProductsController from  "./Views/Categories/ProductsController.js"
+import * as ProductsController from  "./Views/Products/ProductsController.js"
+import * as NuevoController from "./Views/Categories/NuevoController.js"
 
 let rutas = [
          {
@@ -14,7 +15,14 @@ let rutas = [
             path:"./src/views/Products/index.html",
             controlador: ProductsController.init
 
+         },{
+            name:"Nueva",
+            path:"./src/views/Categories/Formulario.html",
+            controlador: NuevoController.init
          }
+           
+
+
 
 ]
 

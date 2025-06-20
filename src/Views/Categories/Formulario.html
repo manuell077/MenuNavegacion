@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="../../styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">FORMULARIO</h1>
+    <form class="formulario" novalidate>
+      <div class="datos">
+       <div class="labels">
+        <label for="nombre" id="labelNombre">Nombre</label>
+        <label for="Descripcion" id="labelDescripcion">Descripcion</label>
+       </div>
+
+       <div class="entradas">
+        <input type="text" id="nombre" name="nombre" class="entradas__datos"  required>
+        <textarea name="descripcion" id="descripcion" rows="5" cols="30" placeholder="Escriba algo aqui" required  ></textarea>
+       </div>
+    </div>
+    <div class="nuevo nuevo--formulario">
+    <button type="submit"  class="nuevo__boton nuevo__boton--formulario">Enviar</button>
+    </div>
+  
+    </form>
+
+</body>
+</html>
